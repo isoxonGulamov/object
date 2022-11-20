@@ -1,0 +1,75 @@
+.bd{
+  margin: 0 auto;
+ position: relative;
+  height: 400px;
+ background-image: url(./img/13660.webp);
+  margin-top: 200px;
+  width: 750px;
+  text-align: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 30px;
+
+}
+.box{
+  position: absolute;
+  background-color: red;
+    box-shadow: 0 0 5px 10px;
+    width: 700px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: bisque;
+    font-weight: 400;
+    padding:20px 35px 0px 35px;
+    line-height: 50px;
+    height: 500px;
+    right: 0;
+    left: 0;
+  bottom: 1%;
+    display: inline-block;
+    border-radius: 12px;
+}
+.box:hover{
+  background-color: red;
+  animation-name: link;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  width: 400px;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: 300;
+  left: 20%;
+  }
+  .sp1{
+    color: blue;
+  }
+  @keyframes link {
+    0%{
+      transform: rotate3d(360deg);
+    }
+    20%{
+      transform: rotateY(180deg);
+      background-color: chartreuse;
+    }
+    40%{
+      background-color: cornflowerblue;
+    }
+    60%{
+     
+      background-color: darkgoldenrod;
+    }
+    80%{
+      background-color: burlywood;
+    }
+    90%{
+      background-color: gray;
+    }
+    50%{
+      transform: rotateZ(360deg);
+    }
+    100%{
+   
+      transform: rotateY(0deg);
+    }
+  }
