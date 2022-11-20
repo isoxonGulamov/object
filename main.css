@@ -20,7 +20,7 @@
     font-size: 30px;
     color: bisque;
     font-weight: 400;
-    padding:20px 35px 0px 35px;
+    padding:20px 35px 0px 10px;
     line-height: 50px;
     height: 500px;
     right: 0;
@@ -37,7 +37,9 @@
   animation-timing-function: linear;
   width: 400px;
   font-size: 20px;
-  line-height: 45px;
+  height: 400px;
+  line-height: 35px;
+  bottom: 10%;
   font-weight: 300;
   left: 20%;
   }
